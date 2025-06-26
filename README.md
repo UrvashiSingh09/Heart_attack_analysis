@@ -1,76 +1,89 @@
-🫀 Heart Attack Risk Data Analysis using EDA
-This project explores heart attack risk factors using Exploratory Data Analysis (EDA) techniques. Through statistical summaries and visualizations, we gain insights into key variables that impact cardiovascular health.
+## 🪀 Heart Attack Risk Data Analysis using EDA
 
-📂 Project Overview
+This project explores heart attack risk factors using **Exploratory Data Analysis (EDA)** techniques. Through statistical summaries and visualizations, we gain insights into key variables that impact cardiovascular health.
+
+---
+
+### 📂 Project Overview
+
 This EDA project investigates a synthetic heart health dataset to identify patterns, trends, and relationships among risk factors like:
 
-Age
-Cholesterol levels
+* Age
+* Cholesterol levels
+* Hypertension
+* Stress level
+* Physical activity
+* Heart rate
+* Family history
 
-Hypertension
+---
 
-Stress level
+### 🛠️ Technologies Used
 
-Physical activity
+* **Python**
+* **Pandas** – Data manipulation
+* **Matplotlib** & **Seaborn** – Visualization
+* **NumPy** – Numerical operations
 
-Heart rate
+---
 
-Family history
+### 📊 Key EDA Steps
 
-🛠️ Technologies Used
-Python
-Pandas – Data manipulation
-Matplotlib & Seaborn – Visualization
-NumPy – Numerical operations
+1. **Data Collection**
+   Generated synthetic data simulating heart risk profiles for individuals aged 30–85.
 
-📊 Key EDA Steps
-Data Collection
-Generated synthetic data simulating heart risk profiles for individuals aged 30–85.
+2. **Data Cleaning & Preprocessing**
+   Verified data consistency, formatting, and ensured no missing or duplicate values.
 
-Data Cleaning & Preprocessing
-Verified data consistency, formatting, and ensured no missing or duplicate values.
+3. **Exploratory Data Analysis**
 
-Exploratory Data Analysis
+   * Feature distributions: age, cholesterol, stress, activity, heart rate.
+   * Correlation heatmap to detect relationships.
+   * Age group risk analysis using bar plots.
+   * Risk impact of stress and physical activity using box plots.
 
-Feature distributions: age, cholesterol, stress, activity, heart rate.
+---
 
-Correlation heatmap to detect relationships.
+### 📌 Key Findings
 
-Age group risk analysis using bar plots.
+* Individuals aged **70–80** are at **highest risk** of heart attacks.
+* **High stress** increases risk, while **more physical activity** reduces it.
+* **Cholesterol** and **Hypertension** are strong indicators of heart attack likelihood.
+* **Family history** showed limited impact in this dataset — emphasizing lifestyle factors.
 
-Risk impact of stress and physical activity using box plots.
+---
 
-📌 Key Findings
-Individuals aged 70–80 are at highest risk of heart attacks.
+### 📈 Visuals Included
 
-High stress increases risk, while more physical activity reduces it.
+* Histograms & KDE plots
+* Correlation heatmap
+* Bar plot (Heart Attack Risk by Age Group)
+* Box plots (Stress & Physical Activity vs Risk)
 
-Cholesterol and Hypertension are strong indicators of heart attack likelihood.
+---
 
-Family history showed limited impact in this dataset — emphasizing lifestyle factors.
+### 📁 How to Run
 
-📈 Visuals Included
-Histograms & KDE plots
-Correlation heatmap
-Bar plot (Heart Attack Risk by Age Group)
-Box plots (Stress & Physical Activity vs Risk)
+1. Clone the repository
+   `git clone https://github.com/YourUsername/Heart_Attack_Risk_EDA.git`
 
-📁 How to Run
-Clone the repository
-git clone https://github.com/YourUsername/Heart_Attack_Risk_EDA.git
+2. Navigate to the folder
+   `cd Heart_Attack_Risk_EDA`
 
-Navigate to the folder
-cd Heart_Attack_Risk_EDA
+3. Run the script in a Jupyter notebook or Python environment
+   `python heart_attack_risk_eda.py`
 
-Run the script in a Jupyter notebook or Python environment
-python heart_attack_risk_eda.py
+---
 
-📌 Outcome
+### 📌 Outcome
+
 This project helped enhance my:
 
-📊 Data visualization and storytelling skills
+* 📊 Data visualization and storytelling skills
+* 🧠 Understanding of cardiovascular risk patterns using real-world indicators
 
-🧠 Understanding of cardiovascular risk patterns using real-world indicators
+---
 
-📜 License
-This project is open-source and available under the MIT License.
+### 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
