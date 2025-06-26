@@ -6,10 +6,15 @@ This EDA project investigates a synthetic heart health dataset to identify patte
 
 Age
 Cholesterol levels
+
 Hypertension
+
 Stress level
+
 Physical activity
+
 Heart rate
+
 Family history
 
 🛠️ Technologies Used
